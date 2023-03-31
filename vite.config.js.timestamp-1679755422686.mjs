@@ -5,7 +5,8 @@ var vite_config_default = defineConfig({
   plugins: [react()],
   server: {
     host: "0.0.0.0"
-  }
+  },
+  base: "/TeamMemberAllocationApp"
 });
 export {
   vite_config_default as default
